@@ -1,0 +1,1726 @@
+@charset "utf-8";
+
+/**
+*
+* -----------------------------------------------------------------------------
+*
+* Template : Teczilla – Business Consulting HTML Template
+* Author : Avadanta
+* Author URI : http://www.avadanta.com/
+*
+* -----------------------------------------------------------------------------
+*
+**/
+
+/* Important CSS */
+.dual-btn .dual-btn-wrap a.btn-left {
+    margin-right: calc(0px/2);
+}
+.dual-btn .dual-btn-wrap a.btn-right {
+    margin-left: calc(0px/2);
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .tec-portfolio.style2::after {
+        height: 100%;
+    }
+    .tec-portfolio.style2 {
+        margin-bottom: 100px;
+    }
+    .tec-portfolio.style2 .slider-part .owl-item .portfolio-wrap .content-part {
+        right: 15px;
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .tec-slider.slider1 .nivoSlider img,
+    .tec-slider.slider3 .nivoSlider img {
+        height: 615px;
+        width: auto !important;
+    }
+    .tec-slider.slider4 .slider {
+        padding: 340px 0 240px;
+    }
+    .tec-portfolio.style2 .title-wrap {
+        left: 0;
+    }
+    .tec-portfolio.style2 .slider-part .owl-item .portfolio-wrap .content-part .title {
+        font-size: 20px;
+        line-height: 38px;
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .tec-portfolio.style2 {
+        margin-bottom: 92px;
+    }
+    .tec-testimonial.style3 {
+        padding-bottom: 92px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .lg-pl-pr-15,
+    .lg-col-padding > [class*="col-"] {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .hidden-lg {
+        display: none;
+    }
+    .shape-bg2 {
+        background-size: 100% 103%;
+    }
+    .tec-project.style1.bg13 {
+        background: transparent;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu.pr-65 {
+        padding-right: 27px;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li {
+        margin-right: 27px;
+    }
+    .tec-services.style1 .service-wrap {
+        padding: 30px 15px;
+    }
+    .tec-about.style1 .col-lg-6.pl-66 {
+        padding-left: 30px;
+    }
+    .tec-contact.style1 .contact-info {
+        padding: 50px 29px;
+    }
+    .tec-collaboration.style1 {
+        padding: 100px 0;
+        margin: 0;
+    }
+    .tec-collaboration.style1 .img-part img {
+        position: relative;
+        bottom: 0;
+    }
+    .tec-collaboration.style1 .sec-title {
+        padding: 0;
+    }
+    .tec-casestudies.style1 .portfolio-item .content-part {
+        padding: 0 15px;
+    }
+    .tec-slider.slider2 .content-part {
+        padding: 307px 0 170px;
+    }
+    .tec-slider.slider2 .content-part .slider-des {
+        max-width: 520px;
+    }
+    .tec-slider.slider2 .content-part .sl-desc {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .tec-slider.slider2 .content-part .sl-title {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .tec-footer .footer-content .footer-post .post-wrap .post-desc {
+        float: right;
+        width: 67%;
+    }
+    .tec-footer .footer-content .footer-post .post-wrap .post-img {
+        width: auto;
+    }
+    .tec-slider.slider2 .content-part.slide2 .sl-ly-img img {
+        width: 459px;
+    }
+    .tec-slider.slider2 .content-part .sl-ly-img img {
+        width: 415px;
+    }
+    .tec-about.style1 .sec-title {
+        padding: 0;
+    }
+    .tec-skillbar.style2 .pie-title {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .tec-blog.style1 .blog-wrap .content-part {
+        padding: 33px 15px 25px;
+    }
+    .tec-slider.slider3 .content-part .sl-title {
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .tec-services.style3 .col-lg-5.pr-70,
+    .tec-whychooseus.style1 .col-md-6.pr-50,
+    .tec-testimonial.style3 .col-md-6.pr-70,
+    .tec-blog.style1.modify2 .col-lg-4.pr-45,
+    .tec-collaboration.style1 .col-md-6.pl-50,
+    .tec-about.style1 .col-lg-6.pl-40.pr-60 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .tec-services.style4 .col-lg-6.pl-55 {
+        padding-left: 30px;
+    }
+    .full-width-header.header-style3 .tec-header .menu-area .expand-btn-inner .number i {
+        margin-right: 4px;
+    }
+    .full-width-header.header-style3 .tec-menu-area .main-menu .tec-menu {
+        padding-right: 19px;
+    }
+    .tec-slider.slider4 .slider.slide2 {
+        background-position: left;
+    }
+    .tec-portfolio.style2 .title-wrap {
+        display: none;
+    }
+    .tec-testimonial.style3 .col-md-6.pl-60 {
+        padding-left: 15px;
+    }
+    .tec-questions.style1 .sec-title.pr-80 {
+        padding-right: 0;
+    }
+    .tec-project.style1 .col-lg-8 {
+        padding-left: 15px;
+    }
+    .tec-project.style1 .video-part {
+        border-radius: 0;
+        max-width: 640px;
+        margin: 0 auto 60px;
+    }
+    .tec-project.style1 .video-part img {
+        border-radius: 6px;
+    }
+    .tec-specialty.style1 .specialty-grid {
+        padding: 20px 15px 40px;
+    }
+    .tec-specialty.style1 .specialty-grid .title {
+        font-size: 21px;
+        margin-bottom: 9px;
+    }
+    body.home-six .full-width-header.header-style2 .tec-menu-area .main-menu .tec-menu.pr-144 {
+        padding-right: 75px;
+    }
+    .tec-slider.slider6 .slider {
+        height: 820px;
+        padding: 210px 0 0;
+    }
+    .tec-services.style7 .services-wrap {
+        padding: 38px 15px 36px;
+    }
+    .tec-whychooseus.style2 .tec-counter-list {
+        padding: 42px 16px 35px;
+    }
+    .tec-quote.style1 .custom {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .tec-services.style8 .service-wrap {
+        padding: 50px 35px;
+    }
+    .tec-whychooseus.style3 .image-wrap .ly.ly2 {
+        right: -26px;
+    }
+    .tec-whychooseus.style3 .image-wrap .ly.ly1 {
+        right: -17px;
+    }
+    .tec-partner.modify5 .partner-item a {
+        padding: 0 40px;
+    }
+    .tec-testimonial.style4.modify2 .content-wrap .desc {
+        padding-right: 0;
+    }
+    .tec-portfolio.inner2 .portfolio-item .portfolio-content {
+        padding: 24px 15px;
+    }
+    .tec-portfolio.single .project-sidebar .sb-project-detail ul {
+        padding: 25px 20px;
+    }
+    .tec-blog.inner .blog-sidebar {
+        width: 270px;
+    }
+    .tec-blog.inner .blog-sidebar {
+        position: unset !important;
+        width: 100%;
+    }
+    .shape-bg3,
+    .shape-bg4 {
+        background-position: center;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .full-width-header.header-style2.md-mod .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .nav-menu .tec-mega-menu > a:after, 
+    .nav-menu > .menu-item-has-children > a:after {
+        content: "\f107";
+        font-family: FontAwesome;
+        float: right;
+        margin: 2px 0 0 5px;
+        display: none;
+    }
+    .sticky{ 
+        background: #fff !important;
+        position: fixed !important;
+        top: 0px;
+        z-index: 999;
+        margin: 0 auto !important;
+        padding: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-name: sticky-animation;
+        animation-name: sticky-animation;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .md-order-first {
+        -ms-flex-order: -1;
+        order: -1;
+    }
+    .hidden-md {
+        display: none;
+    }
+    .pt-411 {
+        padding-top: 372px;
+    }
+    .md-pl-pr-15,
+    .md-col-padding > [class*="col-"] {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .md-container {
+        max-width: 720px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .md-row-container {
+        max-width: 720px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .md-text-center {
+        text-align: center !important;
+    }
+    .bg1 {
+        background-position: right;
+    }
+    .bg17 {
+        background-repeat: repeat;
+    }
+    .sec-title h2.title,
+    .sec-title h2.title3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .sec-title.style2 .first-half {
+        max-width: 44%;
+        flex: 0 0 44%;
+        padding-right: 20px;
+        padding-top: 21px;
+    }
+    .sec-title.style2 .last-half {
+        max-width: 56%;
+        flex: 0 0 56%;
+        padding-left: 20px;
+    }
+    .sec-title.style2 .last-half .desc {
+        padding: 0;
+    }
+    .full-width-header.header-style3 {
+        position: unset;
+    }
+    .full-width-header.header-style3 .tec-header .menu-area.sticky .container,
+    .full-width-header.header-style3 .tec-header .menu-area .container {
+        padding: 0 15px;
+        border: none;
+        margin-top: 0;
+        background: transparent;
+        max-width: 720px;
+    }
+    .full-width-header .tec-header .menu-area.sticky .logo-area,
+    .full-width-header .tec-header .menu-area .logo-area {
+            position: initial;
+    height: 46px !important;
+    line-height: 0px !important;
+    z-index: 1;
+    }
+    .full-width-header.header-style2 .tec-header .menu-area.sticky .main-menu .tec-menu ul.nav-menu > li > a {
+        line-height: normal;
+        height: unset;
+    }
+    .full-width-header.header-style2 {
+        position: unset;
+    }
+    .full-width-header .tec-header .menu-area .logo-area .dark {
+        display: block;
+    }
+    .full-width-header .tec-header .menu-area .logo-area .light,
+    .tec-slider .content-part .sl-ly-img,
+    .full-width-header .tec-header .menu-area .expand-btn-inner,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li a::before,
+    .nav-menu .mega-menu .single-megamenu .sub-menu div.sub-menu-close,
+    .tec-freequote.style1::before {
+        display: none;
+    }
+    .full-width-header .tec-header .menu-area .tec-menu-toggle {
+        display: inline-block;
+    }
+    .full-width-header .tec-header .menu-area .tec-menu-toggle i {
+        font-size: 35px;
+        margin: 0;
+    }
+    .full-width-header .tec-header .menu-area .tec-menu-area {
+        display: block; 
+        align-items: unset; 
+        justify-content: unset; 
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu {
+        padding-right: 30px;
+        position: absolute;
+        z-index: 9;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li {
+        margin-right: 0;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.nav-menu {
+        background: #ff4a17;
+    }
+    .full-width-header .tec-header .menu-area.sticky .main-menu .tec-menu ul.nav-menu > li > a,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li > a {
+        height: unset;
+        line-height: normal;
+        padding: 18px 20px !important;
+        border-bottom: 1px solid #257be5;
+    }
+    .full-width-header .tec-header .menu-area.sticky .main-menu .tec-menu ul.nav-menu > li:last-child > a,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li:last-child > a {
+        border-bottom: none;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li a {
+        color: #363636 !important;
+    }
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul li a:hover,
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul li.active a,
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul li.current-menu-item > a,
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul li.current-menu-item > a::before,
+    .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul li a:hover,
+    .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul li.active a,
+    .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a,
+    .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a::before,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul li a:hover,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul li.active a,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a::before,
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu#onepage-menu .active-menu a,
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a {
+        color: #ccc !important;
+    }
+    .full-width-header.header-style2.md-mod .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li a:hover,
+    .full-width-header.header-style2.md-mod .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li.active > a {
+        color: #257be5 !important;
+    }
+    .full-width-header .tec-header .menu-area.sticky {
+        position: unset; 
+        background: transparent;
+        box-shadow: none;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li.last-item {
+        padding-bottom: 15px;
+    }
+    .full-width-header.header-style2 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu,
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.sub-menu {
+        background: #fff !important;
+        border-radius: 0;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.mega-menu .mega-menu-container .single-megamenu .sub-menu,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.mega-menu .mega-menu-container .single-megamenu .sub-menu .last-item {
+        padding-bottom: 0;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.mega-menu .mega-menu-container .single-megamenu .sub-menu.last-sub-menu {
+        padding-bottom: 15px;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.mega-menu .mega-menu-container .single-megamenu:hover .sub-menu .menu-title,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.mega-menu .mega-menu-container .single-megamenu .sub-menu .menu-title {
+        color: #363636 !important;
+    }
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu li.current-page-item > a,
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu li a:hover,
+    .full-width-header.header-style3 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu li.active a,
+    .full-width-header.header-style2 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu li.current-page-item > a,
+    .full-width-header.header-style2 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu li a:hover,
+    .full-width-header.header-style2 .tec-header .menu-area .container .main-menu .tec-menu ul.sub-menu li.active a,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li.current-page-item > a,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li a:hover,
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.sub-menu li.active a {
+        color: #ff4a17 !important;
+    }
+    .full-width-header.header-style2.md-mod .custom-row {
+        display: inherit;
+    }
+    .full-width-header.header-style2.md-mod .tec-header .menu-area .main-menu .tec-menu {
+        padding: 0;
+    }
+    .full-width-header.header-style2.md-mod .tec-header .menu-area .tec-menu-area {
+        position: relative;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu ul.mega-menu .mega-menu-container .single-megamenu,
+    .nav-menu .mega-menu {
+        max-width: 100%;
+        width: 100%;
+        float: none;
+    }
+    .full-width-header .tec-header .menu-area .main-menu .tec-menu.pr-65 {
+        padding-right: 30px;
+    }
+
+    /*-- Home 6 menu color start --*/
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu {
+        background: #67c27c;
+    }
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul > li > a {
+        border-color: #55b76c;
+    }
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a,
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a::before,
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li > a:hover {
+        color: #ccc !important;
+    }
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li .sub-menu > li.current-page-item > a,
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li .sub-menu > li.active > a,
+    body.home-six .full-width-header.header-style2 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li .sub-menu > li > a:hover {
+        color: #67c27c !important;
+    }
+    body.home-six .full-width-header.header-style2 .nav-menu > .menu-item-has-children > span.tec-menu-parent,
+    body.home-six .full-width-header.header-style2 .nav-menu .tec-mega-menu > span.tec-menu-parent {
+        background: #55b76c;
+    }
+    body.home-six .full-width-header.header-style2 .tec-menu-toggle:hover {
+        color: #67c27c !important;
+    }
+    /*-- Home 6 menu color end --*/
+
+    /*-- Home 8 menu color start --*/
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu {
+        background: #1c3988;
+    }
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul > li > a {
+        border-color: #395390;
+    }
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a,
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul li.current-menu-item > a::before,
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li > a:hover {
+        color: #ccc !important;
+    }
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li .sub-menu > li.current-page-item > a,
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li .sub-menu > li.active > a,
+    body.home-eight .full-width-header.header-style4 .tec-header .menu-area .main-menu .tec-menu ul.nav-menu li .sub-menu > li > a:hover {
+        color: #1c3988 !important;
+    }
+    body.home-eight .full-width-header.header-style4 .nav-menu > .menu-item-has-children > span.tec-menu-parent,
+    body.home-eight .full-width-header.header-style4 .nav-menu .tec-mega-menu > span.tec-menu-parent {
+        background: #395390;
+    }
+    body.home-eight .full-width-header.header-style4 .tec-menu-toggle:hover {
+        color: #1c3988 !important;
+    }
+    /*-- Home 8 menu color end --*/
+
+    body.home-six .full-width-header.header-style2 .tec-menu-area .main-menu .tec-menu.pr-144 {
+        padding-right: 30px;
+    }
+    .full-width-header.header-style2.modify .tec-header .menu-area .main-menu .tec-menu {
+        padding-right: 30px !important;
+    }
+    .full-width-header.header-style2.modify .tec-header .menu-area .main-menu .tec-menu ul.nav-menu > li > a {
+        height: unset;
+        line-height: normal;
+    }
+    .full-width-header.header-style2.modify .tec-header .menu-area.sticky .main-menu .tec-menu ul li.current-menu-item > a,
+    .full-width-header.header-style2.modify .tec-header .menu-area.sticky .main-menu .tec-menu ul li.current-menu-item > a::before {
+        color: #ccc !important;
+    }
+    .full-width-header.header-style2.modify .tec-header .nav-menu > .menu-item-has-children > span.tec-menu-parent,
+    .full-width-header.header-style2.modify .tec-header .nav-menu .tec-mega-menu > span.tec-menu-parent {
+        background: linear-gradient(to right, #2084ed , #b57bec);
+    }
+    .tec-banner.style1 {
+        padding: 92px 0 70px;
+    }
+    .tec-slider .nivo-directionNav > a::before {
+        font-size: 20px;
+    }
+    .tec-slider .nivo-directionNav > a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .tec-slider.slider1 .container .content-part {
+        left: 15px;
+        right: 15px;
+        max-width: 100%;
+    }
+    .tec-slider.slider1 .nivoSlider img,
+    .tec-slider.slider2 .nivoSlider img {
+        height: 550px;
+        width: auto !important;
+    }
+    .tec-slider .nivo-directionNav > a.nivo-nextNav {
+        right: 30px;
+    }
+    .tec-slider .nivo-directionNav > a.nivo-prevNav {
+        left: 30px;
+    }
+    .tec-slider .nivoSlider:hover .nivo-directionNav > a.nivo-prevNav {
+        left: 0;
+    }
+    .tec-slider .nivoSlider:hover .nivo-directionNav > a.nivo-nextNav {
+        right: 0;
+    }
+    .tec-about.style1 .col-lg-6.pl-66 {
+        padding-left: 15px;
+    }
+    .tec-about.style1 .services-part .services-text .title {
+        font-size: 16px;
+    }
+    .tec-portfolio.style1 .dot-style1 .owl-dots {
+        margin-top: 45px;
+    }
+    .tec-skillbar.style1 .content-part {
+        padding: 52px 60px 60px 60px;
+    }
+    .tec-testimonial.style1 .slider-part {
+        padding: 57px 70px 62px 70px;
+    }
+    .tec-testimonial.style1 .bg-part {
+        background-position: top;
+    }
+    .tec-contact.style1 .form-part {
+        padding: 60px;
+    }
+    .tec-contact.style1 .contact-info {
+        padding: 50px 50px;
+    }
+    .tec-blog.style1 .blog-wrap .content-part {
+        padding: 33px 18px 25px;
+    }
+    .tec-footer .footer-newsletter {
+        padding: 60px 0;
+    }
+    .tec-footer .footer-newsletter .title {
+        font-size: 26px;
+    }
+    .tec-footer .footer-content .footer-post .post-wrap .post-img {
+        width: 100px;
+    }
+    .tec-footer .footer-content .footer-post .post-wrap .post-desc {
+        float: none; 
+        width: auto; 
+    }
+    .tec-slider.slider2 .content-part {
+        padding: 200px 0 206px;
+    }
+    .tec-slider.slider2 .content-part .slider-des {
+        max-width: 100%;
+    }
+    .tec-skillbar.style2 .pie-title {
+        line-height: 32px;
+        font-size: 20px;
+    }
+    .tec-services.style2 .service-wrap {
+        padding: 15px 13px 30px;
+    }
+    .tec-services.style2 .service-wrap .content-part .title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .tec-testimonial.style2 .testi-item .posted-by {
+        padding-left: 32px;
+    }
+    .tec-freequote.style1::after {
+        width: 100%;
+    }
+    .tec-collaboration.style1 {
+        padding: 80px 0;
+    }
+    .tec-whychooseus.style1 .video-wrap {
+        background-position: center;
+    }
+    .tec-slider.slider4 .slider {
+        padding: 140px 0 240px;
+    }
+    .tec-services.style5 .content-part {
+        width: calc(50% - 30px);
+        float: left;
+        margin: 0 15px;
+    }
+    .tec-services.style5:before {
+        width: 100%;
+    }
+    .tec-services.style5:after {
+        display: none;
+    }
+    .tec-portfolio.style2 .row.custom-width {
+        max-width: 720px;
+    }
+    .tec-portfolio.style2 {
+        margin-bottom: 0;
+    }
+    .tec-testimonial.style3 {
+        padding-bottom: 72px;
+    }
+    .tec-pricing.style1 .pricing-wrap .top-part .price {
+        font-size: 50px;
+    }
+    .tec-pricing.style1 .pricing-wrap .top-part .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .tec-slider.slider5 .slider {
+        padding: 170px 0;
+    }
+    .tec-slider.slider5 .slider .content-part .sl-title {
+        font-size: 80px;
+        line-height: 1;
+    }
+    .tec-slider.slider5 .slider .content-part .sl-title span {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .tec-about.style2::before {
+        width: 100%;
+    }
+    .tec-project.style1 .video-part {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 42px;
+    }
+    .tec-specialty.style1 .specialty-grid {
+        padding: 20px 30px 40px;
+    }
+    .tec-testimonial.style3.modify::after {
+        display: none;
+    }
+    .tec-testimonial.style3.modify .owl-item {
+        margin-bottom: 32px;
+    }
+    .tec-contact.style2 .g-map iframe {
+        height: 400px;
+    }
+    .tec-slider.slider6 .slider {
+        height: 730px;
+        padding: 83px 0 0;
+    }
+    body.home-six .sec-title.style2 .first-half {
+        max-width: 100%;
+        flex: 0 0 100%;
+        border-width: 0;
+        padding: 0;
+    }
+    body.home-six .sec-title.style2 .last-half {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    body.home-six .sec-title.style2 {
+        display: block;
+    }
+    .tec-quote.style1 .custom {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .tec-testimonial.style4 .content-wrap .desc {
+        padding-right: 0;
+    }
+    .tec-whychooseus.style3 .image-wrap {
+        position: relative;
+        display: inline-block;
+    }
+    .tec-pricing.style2 .pricing-wrap {
+        max-width: 397px;
+        margin: 0 auto;
+    }
+    .tec-partner.modify4 .partner-item a {
+        padding: 0px 30px;
+    }
+    .tec-testimonial.style5 .content-wrap .desc {
+        font-size: 25px;
+    }
+    .tec-decoration.style1 .parallax-elemen {
+        max-width: 550px;
+        margin: 170px auto 0;
+    }
+    .tec-decoration.style1 {
+        padding-bottom: 233px;
+    }
+    body.home-seven .tec-footer {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .tec-banner.style1 .parallax-elemen {
+        max-width: 550px;
+    }
+    .tec-banner.style1 .parallax-elemen span img {
+        max-width: 100px;
+    }
+    .tec-slider.slider8 .owl-dots {
+        right: 50px;
+    }
+    .tec-slider.slider8 .slider {
+        padding: 195px 0 200px;
+    }
+    .shape-bg1 {
+        background-position: center;
+    }
+    .shape-bg2 {
+        background-size: 204% 111%;
+    }
+    .tec-team.slider2::after {
+        top: -50px;
+    }
+    .shape-bg5 {
+        background-size: 100% 96%;
+    }
+    .tec-breadcrumbs .content-part {
+        padding: 100px 0;
+    }
+    .tec-freequote.style3 .quote-form {
+        padding: 72px 55px 94px;
+    }
+    .tec-freequote.style3 .custom1,
+    .tec-freequote.style3 .custom2 {
+        ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .tec-pricing.style3 .pricing-wrap,
+    .tec-pricing.style1.modify .pricing-wrap {
+        max-width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tec-portfolio.single .project-sidebar .sb-project-detail ul li span {
+        width: 275px;
+    }
+    .tec-blog.inner.single h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .tec-blog.inner.single h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .tec-blog.single .blog-part .article-content .markup-text {
+        padding: 40px 25px 50px 25px;
+    }
+    .tec-cart .cart-wrap table.cart-table .action .update-cart a.readon,
+    .tec-cart .cart-wrap table.cart-table .action .coupon button {
+        padding: 11px 22px;
+    }
+    .tec-checkout .coupon-toggle .accordion .card .card-body .coupon-code-input {
+        width: calc(100% - 177px);
+        float: none;
+        margin-right: 20px;
+        display: inline-block;
+    }
+    .tec-my-account .login-side,
+    .tec-my-account .recover-psw-side {
+        padding: 0;
+    }
+    .tec-contact.inner .contact-form-part .custom1,
+    .tec-contact.inner .contact-form-part .custom2 {
+        ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .tec-contact.inner .g-map iframe {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .readon {
+        padding: 10px 25px;
+    }
+    .md-row-container {
+        max-width: 540px;
+    }
+    .sec-title .sub-title {
+        margin-bottom: 0;
+    }
+    .sec-title .desc br {
+        display: none;
+    }
+    .sec-title h2.title2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tec-services.style5 .sec-title .title2 br {
+        display: none;
+    }
+    .wrap-1400 {
+        max-width: 540px;
+    }
+    .sec-title.style2 .first-half {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0;
+        border: none;
+        margin-bottom: 10px;
+        text-align: center !important;
+    }
+    .sec-title.style2 .last-half {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .sm-text-left {
+        text-align: left !important;
+    }
+    .sm-text-center {
+        text-align: center !important;
+    }
+    .tec-slider.slider1 .container .content-part .sl-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .full-width-header.header-style2.md-mod .tec-header .menu-area .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tec-slider.slider5 .slider {
+        padding: 140px 0 150px;
+    }
+    .tec-testimonial.style1 .testi-item {
+        margin-bottom: 0;
+    }
+    .tec-testimonial.style1 .slider-part {
+        padding: 57px 70px 52px 70px;
+    }
+    .tec-blog.style1 .owl-stage-outer {
+        margin-bottom: 0;
+    }
+    .tec-blog.style1 .owl-item {
+        margin-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tec-footer .footer-newsletter .newsletter-form {
+        max-width: 100%;
+    }
+    .tec-footer .footer-newsletter {
+        padding: 53px 0 60px;
+    }
+    .tec-footer .footer-bottom {
+        text-align: center;
+        padding: 27px 0 36px;
+    }
+    .tec-portfolio.style1 .portfolio-item .content-part {
+        padding: 0 20px;
+    }
+    .tec-slider.slider2 .content-part {
+        padding: 150px 0 153px;
+    }
+    .tec-services.style2 .service-wrap {
+        padding: 15px 15px 30px;
+    }
+    .tec-testimonial.style2 .testi-item .posted-by {
+        padding-left: 10px;
+    }
+    .tec-blog.style1.modify .owl-item {
+        padding: 0;
+    }
+    .tec-slider.slider3 .content-part .sl-title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .tec-blog.style1 .blog-wrap .content-part {
+        padding: 33px 20px 25px;
+    }
+    .full-width-header.header-style3 .tec-header .menu-area.sticky .container,
+    .full-width-header.header-style3 .tec-header .menu-area .container,
+    .md-container,
+    .sm-container {
+        max-width: 540px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tec-testimonial.style3 .content-wrap .desc {
+        font-size: 20px;
+        line-height: 39px;
+    }
+    .tec-pricing.style1 .bg11 {
+        background: transparent;
+    }
+    .tec-slider.slider4 .slider .content-part .sl-title {
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .tec-slider.slider4 .slider .content-part .sl-subtitle {
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .tec-slider.slider4 .slider .content-part .slider-bottom .readon {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .sl-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .tec-slider.slider6 .slider.slide2 .content-part .sl-title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .tec-slider.slider6 .owl-dots {
+        right: 15px;
+        top: 41%;
+    }
+    .tec-team.grid1 .team-item .image-part a img {
+        max-width: 250px;
+    }
+    .tec-team.grid1.modify .team-item .image-part a img {
+        max-width: 100%; 
+    }
+    .tec-banner.style1 .content-part .title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 34px;
+    }
+    .tec-banner.style1 .parallax-elemen {
+        max-width: 450px;
+    }
+    .tec-banner.style1 .parallax-elemen span img {
+        max-width: 85px;
+    }
+    .tec-banner.style1 .content-part {
+        margin: 0 auto 36px;
+    }
+    .tec-banner.style1 {
+        padding: 62px 0 70px;
+    }
+    .tec-decoration.style1 .parallax-elemen span img {
+        max-width: 95px;
+    }
+    .tec-decoration.style1 .parallax-elemen {
+        max-width: 420px;
+    }
+    .tec-decoration.style1 .parallax-elemen {
+        max-width: 420px;
+        height: 349px;
+    }
+    .tec-slider.slider8 .slider .content-part .sl-title {
+        font-size: 37px;
+        line-height: 51px;
+    }
+    .tec-slider.slider8 .owl-dots {
+        right: 15px;
+    }
+    .tec-slider.slider8 .slider {
+        padding: 175px 0 180px;
+    }
+    .tec-slider.slider8 .slider .content-part .slider-bottom ul li .readon {
+        padding: 12px 40px;
+    }
+    .tec-slider.slider8 .slider .content-part .slider-bottom ul li .popup-videos {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .tec-team.slider2::after {
+        display: none;
+    }
+    .tec-freequote.style2 .quote-form {
+        padding: 50px;
+    }
+    .tec-breadcrumbs .content-part {
+        padding: 70px 0;
+    }
+    .tec-cta.bg21 .sec-title .title3 br {
+        display: none;
+    }
+    .tec-freequote.style3 .quote-form {
+        padding: 72px 55px 80px;
+    }
+    .tec-shop.single-product .tab-area ul.nav-tabs li a {
+        font-size: 16px;
+        padding: 12px 27px;
+    }
+    .tec-shop.single-product .slick-initialized .images-slide-single {
+        width: 100% !important;
+        max-width: 155px;
+    }
+    .tec-cart .cart-wrap table.cart-table th {
+        display: none;
+    }
+    .tec-cart .cart-wrap table.cart-table td {
+        display: block;
+    }
+    .tec-cart .cart-wrap table.cart-table {
+        border-top: none;
+    }
+    .tec-cart .cart-wrap table.cart-table .action {
+        text-align: left !important;
+    }
+    .tec-cart .cart-wrap table.cart-table .action .coupon {
+        float: none; 
+        margin-bottom: 30px;
+        text-align: left !important;
+        display: block;
+    }
+    .tec-cart .cart-wrap table.cart-table .action .coupon input {
+        padding: 0 20px;
+        margin: 0 10px 10px 0;
+        width: calc(100% - 158px);
+    }
+    .tec-cart .cart-wrap table.cart-table .action .update-cart a.readon {
+        padding: 11px 29px;
+        font-weight: normal;
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        display: block;
+        text-align: center;
+    }
+    .tec-cart .cart-collaterals .cart-totals {
+        float: none;
+        width: 100%;
+    }
+    .tec-contact .tec-map-6 iframe {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .full-width-header.header-style3 .tec-header .menu-area.sticky .container,
+    .full-width-header.header-style3 .tec-header .menu-area .container,
+    .md-container,
+    .sm-container,
+    .md-row-container {
+        max-width: 100%;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .sx-mb-40 {
+        margin-bottom: 40px;
+    }
+    .tec-services.style1 .service-wrap {
+        padding: 30px;
+    }
+    .tec-portfolio.style1 .portfolio-item .content-part {
+        padding: 0 40px;
+    }
+    .tec-testimonial.style1 .slider-part {
+        padding: 57px 50px 52px 50px;
+    }
+    .tec-slider.slider1 .container .content-part .sl-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .tec-slider.slider2 .content-part .sl-title {
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 15px;
+    }
+    .tec-slider.slider2 .content-part .sl-desc {
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 5px;
+    }
+    .tec-slider.slider2 .content-part .sl-subtitle {
+        font-size: 22px;
+        line-height: 1;
+        margin-bottom: 12px;
+    }
+    .tec-slider.slider2 .content-part .slider-bottom {
+        margin-top: 32px;
+    }
+    .tec-testimonial.style2 .testi-item .content-part::after {
+        left: 68px;
+    }
+    .tec-pricing.style1 .video-sec {
+        padding: 140px 0;
+    }
+    .tec-slider.slider5 .slider .content-part .sl-title {
+        font-size: 70px;
+        line-height: 1;
+    }
+    .tec-slider.slider5 .slider .content-part .sl-title span {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .tec-slider.slider5 .slider .content-part .slider-bottom .readon {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+    .full-width-header.header-style2.md-mod .tec-header .menu-area .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tec-services.style7 .services-wrap {
+        padding: 38px 80px 36px;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .sl-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .sl-subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    .tec-slider.slider6 .slider.slide2 .content-part .sl-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .tec-slider.slider6 .slider {
+        height: 630px;
+        padding: 60px 0 0;
+    }
+    .tec-services.style7 .more-btn {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .tec-banner.style1 .parallax-elemen span img,
+    .tec-decoration.style1 .parallax-elemen span img {
+        display: none;
+    }
+    .tec-decoration.style1 .parallax-elemen {
+        height: unset;
+        margin-top: 62px;
+    }
+    .tec-decoration.style1 {
+        padding-bottom: 80px;
+    }
+    .tec-banner.style1 {
+        padding: 62px 0 60px;
+    }
+    .tec-slider.slider8 .slider .content-part .sl-title {
+        font-size: 33px;
+        line-height: 46px;
+    }
+    .tec-slider.slider8 .slider .content-part .slider-bottom ul li {
+        margin-right: 15px;
+    }
+    .tec-slider.slider8 .slider {
+        padding: 145px 0 150px;
+    }
+    .tec-services.style9 .bottom-link {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .tec-counter.style1.shape-bg1 {
+        padding-top: 75px;
+    }
+    .tec-faq.inner .accordion .card .card-header .card-link {
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .tec-portfolio.single .project-sidebar .sb-project-detail ul li span {
+        width: 160px;
+    }
+    .tec-blog.inner .blog-wrap .content-part {
+        padding: 36px 15px 45px;
+    }
+    .tec-blog.inner .blog-wrap .content-part .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .tec-blog.single .blog-part .article-content {
+        padding: 38px 15px 34px;
+    }
+    .tec-shop .product-list .image-product img {
+        width: 100%;
+    }
+    .tec-shop .select-option {
+        display: inline-block;
+    }
+    .tec-shop .select-option select {
+        float: none;
+    }
+    .tec-shop.single-product .tab-area ul.nav-tabs {
+        border-bottom: none;
+        margin-bottom: 25px;
+    }
+    .tec-shop.single-product .tab-area ul.nav-tabs {
+        display: block;
+    }
+    .tec-shop.single-product .tab-area ul.nav-tabs li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .tec-shop.single-product .tab-area ul.nav-tabs li a {
+        border-radius: 5px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sec-title h2.title,
+    .sec-title h2.title2,
+    h2 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .sec-title .desc {
+        display: none;
+    }
+    .readon.modify {
+        padding: 9px 26px;
+        font-size: 15px;
+    }
+    .sidebar-grid {
+        padding: 30px 15px;
+    }
+    .tec-slider.slider1 .container .content-part {
+        padding: 45px 13px 55px;
+    }
+    .tec-slider.slider1 .container .content-part .slider-bottom {
+        margin: 25px 0 0;
+    }
+    .tec-slider.slider1 .container .content-part .sl-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .full-width-header .tec-header .menu-area.sticky .logo-area img,
+    .tec-footer .footer-content .about-widget .logo-part a img,
+    .full-width-header .tec-header .menu-area .logo-area img {
+        max-height: 25px;
+    }
+    .tec-about.style1 .services-part {
+        display: block;
+    }
+    .tec-about.style1 .services-part .services-text {
+        padding-left: 0;
+    }
+    .tec-about.style1 .services-part .services-text .title {
+        font-size: 20px;
+    }
+    .tec-skillbar.style1 .content-part {
+        padding: 42px 30px 50px 30px;
+    }
+    .tec-skillbar.style1 .btn-part.mt-60 {
+        margin-top: 40px;
+    }
+    .tec-contact.style1 .contact-info {
+        padding: 50px 30px;
+    }
+    .tec-contact.style1 .contact-info .info-wrap {
+        display: block;
+    }
+    .tec-contact.style1 .contact-info .info-wrap .icon-part {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .tec-contact.style1 .form-part {
+        padding: 60px 45px;
+    }
+    .tec-slider .nivo-directionNav > a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .tec-slider.slider1 .nivoSlider img,
+    .tec-slider.slider3 .nivoSlider img {
+        height: 480px;
+    }
+    .tec-testimonial.style1 .slider-part {
+        padding: 57px 45px 52px;
+    }
+    .tec-slider.slider2 .content-part .sl-title {
+        font-size: 33px;
+        line-height: 1;
+    }
+    .tec-slider.slider2 .content-part .sl-desc {
+        font-size: 17px;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+    .tec-slider.slider2 .content-part .sl-subtitle {
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .tec-slider.slider2 .content-part {
+        padding: 120px 0 123px;
+    }
+    .tec-slider.slider3 .content-part .sl-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .tec-slider.slider3 .content-part .sl-subtitle {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 13px;
+    }
+    .dual-btn .dual-btn-wrap a.btn-left {
+        padding: 14px 30px 14px 16px;
+    }
+    .dual-btn .dual-btn-wrap a.btn-right {
+        padding: 14px 16px 14px 30px;
+    }
+    .tec-footer .footer-bottom .copyright p {
+        font-size: 14px;
+    }
+    .tec-footer .footer-bottom .footer-social li a {
+        font-size: 14px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .tec-footer .footer-content .footer-post .post-wrap .post-img {
+        height: 82px;
+    }
+    .tec-collaboration.style1 .sec-title .desc {
+        display: block;
+    }
+    .tec-testimonial.style3 .content-wrap .desc {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .tec-slider.slider4 .slider.slider {
+        padding: 140px 0;
+    }
+    .tec-slider.slider4 .slider .content-part .sl-title {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .tec-slider.slider4 .slider .content-part .sl-subtitle {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .tec-services.style5 .content-part {
+        width: calc(100% - 30px);
+        float: none;
+        margin: 0 15px;
+    }
+    .tec-services.style5 .content-part:first-child {
+        margin-bottom: 30px;
+    }
+    .tec-services.style5::before {
+        background-size: cover;
+    }
+    body.home-four .tec-blog.style1 .owl-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tec-slider.slider5 .slider {
+        padding: 100px 0 110px;
+    }
+    .tec-slider.slider5 .slider .content-part .sl-title span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tec-slider.slider5 .slider .content-part .sl-title {
+        font-size: 55px;
+    }
+    .tec-slider.slider6 {
+        margin-bottom: 68px;
+    }
+    .tec-slider.slider6 .slider.slide2 .content-part .sl-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .sl-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .sl-desc {
+        font-size: 16px;
+        line-height: 26px;
+        display: none;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .slider-bottom ul li {
+        margin-right: 0;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .tec-slider.slider6 .slider.slide1 .content-part .slider-bottom {
+        margin-top: 18px;
+    }
+    .tec-slider.slider6 .slider.slide1,
+    .tec-slider.slider6 .slider.slide2 {
+        background-position: right;
+    }
+    .tec-slider.slider6 .slider {
+        height: 455px;
+    }
+    .tec-services.style7 .services-wrap {
+        padding: 38px 30px 36px;
+    }
+    .tec-quote.style1 .quote-form {
+        padding: 50px 15px 50px;
+    }
+    .tec-testimonial.style4 .content-wrap .desc {
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .tec-testimonial.style4 .content-wrap .testi-meta {
+        margin-top: 15px;
+    }
+    .tec-team.grid1 .sec-title .title br {
+        display: none;
+    }
+    .tec-slider.slider6 .owl-dots {
+        top: 63%;
+    }
+    .tec-banner.style1 .content-part .subscribe-form button {
+        padding: 9.5px 7px;
+        border-radius: 3px;
+    }
+    .tec-whychooseus.style3 .content-wrap .item-part {
+        display: block;
+    }
+    .tec-whychooseus.style3 .content-wrap .item-part .desc-text {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .tec-pricing.style2 .pricing-wrap {
+        padding: 30px 30px 50px;
+        text-align: center;
+    }
+    .tec-testimonial.style5 .content-wrap .desc {
+        font-size: 20px;
+    }
+    .tec-testimonial.style5 .content-wrap .icon-part img {
+        width: 70px;
+    }
+    .tec-testimonial.style5 .content-wrap .icon-part {
+        margin-bottom: 28px;
+    }
+    .tec-partner.modify4 .partner-item a {
+        padding: 0;
+    }
+    .tec-decoration.style1 .sec-title .title br {
+        display: none;
+    }
+    .tec-decoration.style1 .parallax-elemen div img {
+        max-width: 100%;
+    }
+    .tec-whychooseus.style3 .image-wrap .ly.ly3 {
+        max-width: 160px;
+        left: -30px;
+        bottom: -15px;
+    }
+    .tec-whychooseus.style3 .image-wrap .ly.ly2 {
+        max-width: 160px;
+        bottom: 42px;
+    }
+    .tec-whychooseus.style3 .image-wrap .ly.ly1 {
+        top: 38px;
+        right: -10px;
+        max-width: 195px;
+    }
+    .tec-slider.slider8 .slider {
+        padding: 100px 0 105px;
+    }
+    .tec-slider.slider8 .slider .content-part .sl-title {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .tec-slider.slider8 .slider .content-part .sl-subtitle {
+        margin-bottom: 6px;
+    }
+    .tec-slider.slider8 .slider-bottom {
+        margin-top: 20px;
+    }
+    .tec-slider.slider8 .slider .content-part .slider-bottom ul li .readon {
+        padding: 8px 28px;
+    }
+    .tec-slider.slider8 .slider .content-part .slider-bottom ul li span.btn-title {
+        display: none;
+    }
+    .tec-slider.slider8 .slider.slide2 {
+        background-position: left;
+    }
+    .tec-slider.slider8 .slider.slide1 {
+        background-position: left;
+    }
+    .tec-partner.modify5 .partner-item a {
+        padding: 0 10px;
+    }
+    .tec-whychooseus.style4 .content-part {
+        display: block;
+    }
+    .tec-whychooseus.style4 .content-part .text-part {
+        padding: 20px 0 0;
+    }
+    .video-btn a {
+        width: 60px;
+        height: 60px;
+        line-height: 64px;
+    }
+    .video-btn a i {
+        font-size: 22px;
+    }
+    .video-btn.border-style a::before {
+        width: 80px;
+        height: 80px;
+    }
+    .tec-freequote.style2 .quote-form {
+        padding: 50px 15px;
+    }
+    .tec-slider.slider8 .owl-dots {
+        top: 17%;
+    }
+    .tec-freequote.style3 .quote-form {
+        padding: 42px 15px 50px;
+    }
+    .tec-breadcrumbs .content-part .breadcrumbs-title {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .tec-testimonial.style6 .testi-wrap {
+        padding: 23px 15px 43px;
+    }
+    .tec-testimonial.style6 .testi-wrap .desc {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    ul.page-nav-vertical li a {
+        padding: 10px 18px;
+    }
+    ul.page-nav-vertical li a::before {
+        top: 11px;
+    }
+    .addd .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .addd .contact a {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .tec-faq.inner .accordion .card .card-header .card-link {
+        padding-left: 15px !important;
+    }
+    .tec-faq.inner .accordion .card .card-header .card-link::after {
+        display: none;
+    }
+    .tec-portfolio.style1 .portfolio-item .content-part {
+        padding: 0 15px;
+    }
+    .tec-portfolio.inner4 .portfolio-item .content-part {
+        width: calc(100% - 30px);
+    }
+    .tec-portfolio.inner4 .portfolio-item .content-part .title {
+        font-size: 17px;
+    }
+    .tec-portfolio.single .project-sidebar .sb-project-detail ul li span {
+        width: 130px;
+    }
+    .tec-blog.single .blog-part .article-content .blog-meta li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .tec-blog.single .blog-part .article-content .markup-text {
+        padding: 30px 25px 34px;
+        border-left: none;
+        border-top: 5px solid #ff4a17;
+    }
+    .tec-blog.inner.single h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .tec-blog.inner.single .listing-style2.modify {
+        margin-left: 0;
+    }
+    .tec-blog.inner.single ul.listing-style2.modify li {
+        padding-left: 15px;
+        margin-bottom: 8px;
+    }
+    .tec-blog.inner.single h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .tec-blog.single .blog-part .article-nav {
+        padding: 20px 0;
+    }
+    .tec-shop.single-product .slick-initialized .images-slide-single {
+        max-width: 145px;
+    }
+    .tec-cart .cart-wrap table.cart-table .action .coupon input {
+        width: 100%;
+    }
+    .tec-cart .cart-collaterals .cart-totals .wc-proceed-to-checkout a.readon,
+    .tec-cart .cart-wrap table.cart-table .action .coupon button {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .tec-checkout .full-grid .payment-method .bottom-area .readon {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .tec-checkout .checkout-title h3 {
+        font-size: 24px;
+    }
+    .tec-checkout .coupon-toggle .accordion .card .card-header .card-title button {
+        padding: 0;
+        display: block;
+    }
+    .tec-checkout .coupon-toggle .accordion .card .card-body .coupon-code-input {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .tec-my-account .regi-side {
+        padding: 30px 15px;
+    }
+    .tec-my-account .regi-side form.register-form .date {
+        margin-right: 6px;
+    }
+    .tec-contact.inner .contact-form-part form {
+        padding: 42px 15px 50px;
+    }
+    .tec-contact.inner .content-info-part .info-item {
+        padding: 50px 15px 37px;
+    }
+    .tec-contact.inner.style1 .contact-info .info-wrap {
+        display: block;
+    }
+    .tec-contact.inner.style1 .form-part {
+        padding: 50px 30px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+}
